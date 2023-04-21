@@ -1,0 +1,11 @@
+.degrade{
+    background-image: linear-gradient(to left, #344968, #344060);
+}
+
+.separacion {
+    margin-right: 3rem;
+}
+
+.opa{
+    opacity: 0.7;
+}
