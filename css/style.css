@@ -2,10 +2,23 @@
     background-image: linear-gradient(to left, #344968, #344060);
 }
 
-.separacion {
-    margin-right: 3rem;
+@media screen and (max-width: 576px) {
+    .titulo-text {
+        margin-top: -1rem;        
+        max-height: 7rem;
+        overflow-y: auto;
+        -webkit-overflow-scrolling: touch;
+    }
+    .titulo {
+        margin-top: -3rem;
+    }
 }
 
-.opa{
-    opacity: 0.7;
+@media screen and (max-width: 576px) {
+    .btn {
+        font-size: 0.7rem;
+        padding: 0.3rem 0.65rem;
+        
+        justify-content: center;
+    }    
 }
