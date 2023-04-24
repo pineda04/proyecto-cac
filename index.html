@@ -53,7 +53,7 @@
                 primer nivel que tenemos para ti. Te esperamos!</p>
             </div>
             <div class="buttons card-img-bottom boton">
-                <button type="button" class="btn btn-outline-light">Quiero ser orador</button>
+                <a class="btn btn-outline-light" href="#orador" role="button">Quiero ser orador</a>
                 <button type="button" class="btn btn-success">
                     Comprar tickets</button>
             </div>
@@ -126,19 +126,21 @@
             </div>
         </div>
     </div>
-    <div class="container-fluid w-50" id="orador">        
+    <div class="container-fluid orator" id="orador">        
         <div class="row">
             <p class="text-center text-black-50 my-0">CONVIÉRTETE EN UN</p>
             <h1 class="text-center my-0">ORADOR</h1>
             <p class="text-center .fs-6 mt-2">Anótate como orador para dar una charla ignite. Cuéntanos de que quieres hablara!</p>
-            <div class="col">
-                <input type="text" class="form-control" placeholder="Nombre" aria-label="First name">
+            <div class="d-md-flex gap-2">
+                <div class="col my-2">
+                    <input type="text" class="form-control" placeholder="Nombre" aria-label="First name">
+                </div>
+                <div class="col my-2">
+                    <input type="text" class="form-control" placeholder="Apellido" aria-label="Last name">
+                </div>
             </div>
-            <div class="col">
-                <input type="text" class="form-control" placeholder="Apellido" aria-label="Last name">
             </div>
-            </div>
-        <div class="form-floating my-3">
+        <div class="form-floating">
             <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea2" style="height: 100px"></textarea>
             <label for="floatingTextarea2" class="text-black-50">Sobre qué quieres hablar?</label>
             <div class="">
@@ -149,7 +151,7 @@
             </div>
         </div>
     </div>
-        <footer class="degrade text-light text-center">
+        <footer class="degrade text-light text-center my-2">
             <div class="d-md-flex justify-content-evenly p-3">            
                 <li class="list-group-item my-auto"><a class="text-decoration-none text-light" href="#"> Preguntas <br> frecuentes</a></li>
                 <li class="list-group-item my-auto"><a class="text-decoration-none text-light" href="#"> Contáctenos</a></li>

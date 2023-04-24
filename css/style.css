@@ -2,6 +2,10 @@
     background-image: linear-gradient(to left, #344968, #344060);
 }
 
+.orator {
+    width: 50%;
+}
+
 @media screen and (max-width: 576px) {
     .titulo-text {
         margin-top: -1rem;        
@@ -21,4 +25,11 @@
         
         justify-content: center;
     }    
+}
+
+@media screen and (max-width: 769px) {
+    .orator {
+        width: 75%;
+    }
+
 }
